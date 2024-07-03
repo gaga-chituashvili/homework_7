@@ -1,0 +1,54 @@
+.container {
+    width: min(100%, 1440px);
+    margin: auto;
+}
+
+/*header*/
+
+.header {
+    background-color: #372D23;
+    padding: 32px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header_ul {
+    display: flex;
+    column-gap: 48px;
+}
+
+.header_bag {
+    font-size: 40px;
+    color: #FCC21B;
+}
+
+.header_li_link {
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #FCC21B;
+}
+
+
+
+
+/*section1*/
+
+
+
+
+
+
+/*section2*/
+
+
+
+
+
+
+
+
+
+/*footer*/
