@@ -11,6 +11,23 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /*position: fixed;
+    max-width: inherit;
+    width: inherit;
+    left: 50%;
+    transform: translateX(-50%);
+    არ იმუშავა
+    */
+
+}
+
+.header_icon {
+    height: 72px;
+}
+
+.header_icon_img {
+    width: 100%;
+    height: 100%;
 }
 
 .header_ul {
@@ -23,6 +40,10 @@
     color: #FCC21B;
 }
 
+.header_bag:hover{
+    filter: drop-shadow(0 5PX 10px #FCC21B);
+}
+
 .header_li_link {
     font-family: Inter;
     font-size: 24px;
@@ -31,14 +52,6 @@
     color: #FCC21B;
 }
 
-.header_icon {
-    height: 72px;
-}
-
-.header_icon_img {
-    width: 100%;
-    height: 100%;
-}
 
 .active {
     color: #ED6C30;
@@ -75,16 +88,24 @@
     line-height: 56px;
     margin-bottom: 32px;
     color: #FFFFFF;
+    text-shadow: 0 6px 4px #372D23;
 }
 
 .section1_article_button {
     font-family: Inter;
+    width: 224px;
+    height: 52px;
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
     background-color: #FCC21B;
     color: #FFFFFF;
+    box-shadow: 0 2px 4px 0 #000000D9;;
+    border: 3px solid #FFFFFF;
+}
 
+.section1_article_button:hover{
+    filter: drop-shadow(8px 8px 10px #000000D9);
 }
 
 
@@ -132,6 +153,8 @@
 
 .section2_article_button {
     font-family: Inter;
+    width: 211px;
+    height: 52px;
     font-size: 20px;
     font-weight: 700;
     line-height: 28px;
@@ -140,12 +163,9 @@
     border-style: none;
 }
 
-
-
-
-
-
-
+.section2_article_button:hover{
+filter: drop-shadow(8px 8px 10px #000000D9);
+}
 
 
 
@@ -160,6 +180,10 @@
 
 }
 
+.footer_article {
+    width: 264px;
+    height: 132px;
+}
 
 
 .first_title {
@@ -168,19 +192,25 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
+    vertical-align: top;
     color: #FFFFFF;
 }
 
+.footer_article_link:nth-child(3) {
+    margin-block: 8px;
+}
 
-.footer_article_title {
+
+.footer_article_link {
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
+    display: block;
     color: #FCC21B;
 }
 
-.footer_article2_title {
+.footer_section_title {
     font-family: Inter;
     font-size: 20px;
     font-weight: 400;
@@ -188,14 +218,14 @@
     text-align: center;
     color: #FFFFFF;
     margin-bottom: 16px;
-
 }
 
-.footer_article2_icon{
+.footer_article2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_article2_icon {
     font-size: 24px;
-    color:#FCC21B;
-}
-
-.article2_middle{
-margin-inline: 16px;
+    color: #FCC21B;
 }
