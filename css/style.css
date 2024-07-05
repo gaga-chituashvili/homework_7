@@ -197,22 +197,22 @@
     font-size: 20px;
     font-weight: 400;
     line-height: 28px;
-    vertical-align: top;
+    margin-bottom: 16px;
     color: #FFFFFF;
 }
 
-.footer_article_link:nth-child(3) {
-    margin-block: 8px;
-}
 
-
-.footer_article_link {
+.footer_li_link {
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
-    display: block;
     color: #FCC21B;
+}
+
+
+.footer_middle_li {
+    margin-block: 8px;
 }
 
 .footer_section_title {
@@ -225,10 +225,11 @@
     margin-bottom: 16px;
 }
 
-.footer_article2 {
-    display: flex;
-    justify-content: space-between;
+.footer_middle_icon {
+    margin-inline: 16px;
 }
+
+
 
 .footer_article2_icon {
     font-size: 24px;
